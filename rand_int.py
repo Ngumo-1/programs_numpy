@@ -10,3 +10,6 @@ from numpy import random
 def generate_array_randomly(start_number, end_number, size):
     arr=np.random.randint(start_number, end_number, size=size)
     return arr
+def generate_number_randomly(start, stop):
+
+    return np.random.randint(start, stop+1)
