@@ -13,3 +13,6 @@ def generate_array_randomly(start_number, end_number, size):
 def generate_number_randomly(start, stop):
 
     return np.random.randint(start, stop+1)
+
+def random_no_frm_given_range(start, stop, size_tuple):
+    return np.random.randint(start,stop+1,size=size_tuple)
